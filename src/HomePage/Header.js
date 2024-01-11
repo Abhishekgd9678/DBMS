@@ -15,8 +15,8 @@ const Header = () => {
             <ul className='flex flex-wrap *:m-4 text-xl'  >
                 <Link><li>Home</li></Link>
                 <Link><li>Account</li></Link>
-                <Link><li>Contribute</li></Link>
-                <Link><li>Get Details</li></Link>
+                <Link to="/Contribute"><li>Contribute</li></Link>
+                <Link to='/GetDetails'><li>Get Details</li></Link>
             </ul>
 
         </div>

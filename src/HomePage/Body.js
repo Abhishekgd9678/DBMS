@@ -2,6 +2,8 @@ import React from "react";
 import Features from "./features";
 import Intro from "./Intro";
 import Creators from "./Creators";
+import Footer from "./Footer";
+
 
 const Body = () => {
   return (
@@ -18,6 +20,7 @@ const Body = () => {
       <div>
         <Creators/>
       </div>
+      <Footer/>
 
     </>
   );
