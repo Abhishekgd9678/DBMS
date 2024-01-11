@@ -13,6 +13,9 @@ const Features = () => {
         />
       </div>
       <div className="des-part  text-center  mt-4 ">
+        <p>
+          
+        </p>
         <p>Species Catalog</p>
       </div>
     </div>
