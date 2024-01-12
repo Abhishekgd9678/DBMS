@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 const GetDetails = () => {
+
   return (
+    <>
+
     <div className='mx-20 h-[100vh] flex items-center justify-center'>
         <div className='h-[20rem]  bg-gray-200 rounded-3xl flex justify-center items-center'>
         <form method='post' className='flex flex-col *:m-4' action='/GetDetails'>
@@ -22,6 +25,13 @@ const GetDetails = () => {
 
 
     </div>
+
+
+    <div>
+
+    </div>
+    </>
+    
   )
 }
 
